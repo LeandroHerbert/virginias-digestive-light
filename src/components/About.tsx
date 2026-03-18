@@ -1,4 +1,5 @@
 import { Award, GraduationCap, Heart, Stethoscope } from "lucide-react";
+import virginiaAbout from "@/assets/virginia-about.jpg";
 
 const About = () => {
   const credentials = [
