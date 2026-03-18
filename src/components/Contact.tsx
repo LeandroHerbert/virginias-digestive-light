@@ -90,7 +90,7 @@ const Contact = () => {
         {/* CTA Button */}
         <div className="text-center">
           <a
-            href="https://wa.me/5561999999999"
+            href="https://wa.me/556132573131?text=Para%20agendar%20consultas/exames%20"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-3 px-10 py-5 bg-primary text-primary-foreground text-lg font-medium rounded-full hover:bg-accent transition-all duration-300 shadow-elevated hover:shadow-glow"
