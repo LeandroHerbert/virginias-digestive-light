@@ -31,17 +31,8 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Image/Visual side */}
           <div className="relative">
-            <div className="aspect-[4/5] bg-gradient-to-br from-sage-light via-cream to-background rounded-2xl overflow-hidden shadow-elevated">
-              <div className="absolute inset-0 flex items-center justify-center">
-                <div className="text-center">
-                  <div className="w-32 h-32 mx-auto mb-6 bg-primary/10 rounded-full flex items-center justify-center">
-                    <span className="font-serif text-5xl text-primary">VP</span>
-                  </div>
-                  <p className="font-serif text-xl text-muted-foreground italic">
-                    Dra. Virgínia Paulinelli
-                  </p>
-                </div>
-              </div>
+            <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-elevated">
+              <img src={virginiaAbout} alt="Dra. Virgínia Paulinelli" className="w-full h-full object-cover object-top" />
             </div>
 
             {/* Floating quote card */}

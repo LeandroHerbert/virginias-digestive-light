@@ -69,11 +69,8 @@ const Hero = () => {
                 <div className="absolute inset-4 border border-primary/20 rounded-full" />
                 
                 {/* Image container */}
-                <div className="absolute inset-8 bg-gradient-to-br from-sage-light/90 to-cream/90 backdrop-blur-md rounded-full overflow-hidden shadow-glow flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <span className="font-serif text-6xl text-primary/40">VP</span>
-                    <p className="text-xs text-muted-foreground mt-2">Dra. Virgínia</p>
-                  </div>
+                <div className="absolute inset-8 rounded-full overflow-hidden shadow-glow">
+                  <img src={virginiaHero} alt="Dra. Virgínia Paulinelli" className="w-full h-full object-cover object-top" />
                 </div>
 
                 {/* Floating badge */}
