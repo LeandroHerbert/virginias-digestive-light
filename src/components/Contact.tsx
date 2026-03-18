@@ -76,11 +76,13 @@ const Contact = () => {
             </p>
 
             <a
-              href="#"
+              href="https://www.instagram.com/virginiapaulinelligastro/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-primary-foreground text-primary font-medium rounded-full hover:bg-primary-foreground/90 transition-colors"
             >
               <Instagram className="w-5 h-5" />
-              @dra.virginiapaulinelli
+              @virginiapaulinelligastro
             </a>
           </div>
         </div>
